@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "@fontsource-variable/space-grotesk";
 import "@fontsource-variable/noto-sans-devanagari";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { FeedbackButton } from "@/components/feedback-button";
 
@@ -35,7 +36,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>{children}<FeedbackButton /></body>
+      <body>{children}<FeedbackButton /><Analytics /></body>
     </html>
   );
 }
