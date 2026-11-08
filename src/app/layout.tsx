@@ -9,6 +9,16 @@ export const metadata: Metadata = {
   title: "MetroWrapped",
   description:
     "Turn your everyday Delhi Metro ride into a playful, shareable year in review.",
+  openGraph: {
+    title: "MetroWrapped",
+    description: "Your year, between stations.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MetroWrapped",
+    description: "Your year, between stations.",
+  },
 };
 
 export const viewport: Viewport = {
