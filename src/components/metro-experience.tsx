@@ -154,7 +154,7 @@ export function MetroExperience() {
         {state.step === 4 && wrapped && <ResultPanel result={toSharedResult(wrapped)} originName={origin?.name} destinationName={destination?.name} onRestart={() => dispatch({ type: "restart" })} />}
       </section>
 
-      <footer className="site-footer"><span>Made for Delhi commuters</span><span>Independent project · Not affiliated with DMRC</span><span>metro-wrapped.vercel.app</span></footer>
+      <footer className="site-footer"><span>Made for Delhi commuters</span><span>Independent project · Not affiliated with DMRC</span><span>metrowrapped.vercel.app</span></footer>
     </main>
   </>);
 }

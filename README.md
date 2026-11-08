@@ -4,7 +4,7 @@
 
 Metro Wrapped is a light, mobile-first Delhi Metro year-in-review. Choose a regular journey, answer a few questions about how you travel, and get an estimated annual commute summary plus a shareable Metro archetype card.
 
-[Try Metro Wrapped](https://metro-wrapped.vercel.app)
+[Try Metro Wrapped](https://metrowrapped.vercel.app)
 
 ## What it does
 

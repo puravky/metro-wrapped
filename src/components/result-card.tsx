@@ -53,7 +53,7 @@ export function ResultCard({ result }: { result: SharedResult }) {
 
       <footer className="result-card-footer">
         <span>WHAT’S YOUR METRO TYPE?</span>
-        <span>metro-wrapped.vercel.app</span>
+        <span>metrowrapped.vercel.app</span>
       </footer>
     </article>
   );

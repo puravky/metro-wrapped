@@ -75,7 +75,7 @@ export async function GET(request: Request) {
           </div>
 
           <div style={{ display: "flex", justifyContent: "space-between", borderTop: "1px solid #a89f8b", paddingTop: isOg ? 9 : 11, marginTop: isOg ? 15 : 16, fontSize: isOg ? 8 : 9, fontWeight: 800, letterSpacing: "0.08em" }}>
-            <span>WHAT’S YOUR METRO TYPE?</span><span>METRO-WRAPPED.VERCEL.APP</span>
+            <span>WHAT’S YOUR METRO TYPE?</span><span>METROWRAPPED.VERCEL.APP</span>
           </div>
         </div>
       </div>
