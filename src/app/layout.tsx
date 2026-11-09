@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { FeedbackButton } from "@/components/feedback-button";
 
-const socialPreview = "/og/metro-pass-collage-og-v2.png";
+const socialPreview = "/og/metro-pass-collage-og-v3.png";
 const socialPreviewAlt = "MetroWrapped — Your year, between stations. A playful Delhi Metro year in review.";
 
 export const metadata: Metadata = {

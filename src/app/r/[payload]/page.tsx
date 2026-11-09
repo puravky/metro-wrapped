@@ -9,7 +9,7 @@ export async function generateMetadata({ params }: ResultPageProps): Promise<Met
   const { payload } = await params;
   const result = decodeResult(payload);
   if (!result) return { title: "Metro Wrapped" };
-  const image = `/api/card?result=${encodeURIComponent(payload)}&format=og`;
+  const image = `/api/card?result=${encodeURIComponent(payload)}&format=og&v=3`;
 
   return {
     title: `${result.archetype.name} | Metro Wrapped`,

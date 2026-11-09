@@ -63,7 +63,8 @@ export function ResultPanel({ result, originName, destinationName, onRestart }: 
 
   const shareToX = () => {
     const text = encodeURIComponent(`Apparently I am “${result.archetype.name}” on the Delhi Metro.`);
-    window.open(`https://x.com/intent/post?text=${text}%20${encodeURIComponent(shareUrl())}`, "_blank", "noopener,noreferrer");
+    const freshShareUrl = `${shareUrl()}?v=3`;
+    window.open(`https://x.com/intent/post?text=${text}%20${encodeURIComponent(freshShareUrl)}`, "_blank", "noopener,noreferrer");
   };
 
   const shareToWhatsApp = () => {
