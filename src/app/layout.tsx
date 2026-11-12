@@ -5,8 +5,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { FeedbackButton } from "@/components/feedback-button";
 
-const socialPreview = "/og/metro-pass-collage-og-v3.png";
-const socialPreviewAlt = "MetroWrapped — Your year, between stations. A playful Delhi Metro year in review.";
+const metro_img = "/og/metro-pass-collage-og-v3.png";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://metrowrapped.vercel.app"),
@@ -17,13 +16,13 @@ export const metadata: Metadata = {
     title: "MetroWrapped",
     description: "Your year, between stations.",
     type: "website",
-    images: [{ url: socialPreview, width: 1200, height: 630, alt: socialPreviewAlt }],
+    images: [{ url: metro_img, width: 1200, height: 630, alt: "MetroWrapped — Your year, between stations. A playful Delhi Metro year in review." }],
   },
   twitter: {
     card: "summary_large_image",
     title: "MetroWrapped",
     description: "Your year, between stations.",
-    images: [{ url: socialPreview, alt: socialPreviewAlt }],
+    images: [{ url: metro_img, alt: "MetroWrapped — Your year, between stations. A playful Delhi Metro year in review." }],
   },
 };
 
